@@ -1,0 +1,13 @@
+{
+  "name": "ui-ast-exporter",
+  "version": "0.1.0",
+  "description": "ts-morph based AST exporter for Angular projects (writes JSON AST+symbol summaries)",
+  "main": "export_ui_ast.js",
+  "scripts": {
+    "export": "node export_ui_ast.js"
+  },
+  "dependencies": {
+    "ts-morph": "^17.0.0",
+    "@angular/compiler": "^16.0.0"
+  }
+}
